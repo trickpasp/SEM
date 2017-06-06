@@ -1,4 +1,4 @@
-package br.ufc.quixada.dao;
+package br.ufc.mestrep.dao;
 
 import java.util.List;
 
@@ -45,7 +45,7 @@ public class ClienteJpaDao implements ClienteDao {
 	
 	@Override
 	public void remove(Cliente cliente) {
-		em.remove(em.merge(cliente));
+		em.remove(em.merge(cliente.getId()));
 	}
 
 	@Override

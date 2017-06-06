@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.com.sem.model.Cliente;
-import br.ufc.quixada.dao.ClienteDao;
-import br.ufc.quixada.dao.ClienteJpaDao;
+import br.ufc.mestrep.dao.ClienteDao;
+import br.ufc.mestrep.dao.ClienteJpaDao;
 
 public class AdicionarClienteLogic implements Logica{
 

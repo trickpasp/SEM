@@ -1,4 +1,4 @@
-package br.ufc.quixada.dao;
+package br.ufc.mestrep.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

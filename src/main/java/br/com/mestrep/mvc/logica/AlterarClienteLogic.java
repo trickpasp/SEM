@@ -4,8 +4,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import br.com.sem.model.Cliente;
-import br.ufc.quixada.dao.ClienteDao;
-import br.ufc.quixada.dao.ClienteJpaDao;
+import br.ufc.mestrep.dao.ClienteDao;
+import br.ufc.mestrep.dao.ClienteJpaDao;
 
 public class AlterarClienteLogic implements Logica {
 
@@ -18,7 +18,7 @@ public class AlterarClienteLogic implements Logica {
 		dao.remove(cliente);
 		System.out.println("Alterando contato... ");
 		
-		return "lista-contatos.jsp";
+		return "/WEB-INF/jsp/crudclientesadmin.jsp";
 	}
 
 }
