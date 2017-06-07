@@ -1,4 +1,4 @@
-package br.com.mestrep.mvc.logica;
+package br.com.sem.mvc.logica;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

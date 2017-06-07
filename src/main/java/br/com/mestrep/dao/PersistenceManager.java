@@ -1,4 +1,4 @@
-package br.ufc.mestrep.dao;
+package br.com.mestrep.dao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

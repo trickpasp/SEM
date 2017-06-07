@@ -1,4 +1,4 @@
-package br.com.mestrep.controller;
+package br.com.sem.controller;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.mestrep.mvc.logica.Logica;
+import br.com.sem.mvc.logica.Logica;
 
 /**
  * Servlet implementation class ControllerServlet

@@ -1,4 +1,4 @@
-package br.ufc.mestrep.dao;
+package br.com.mestrep.dao;
 
 import java.util.List;
 
